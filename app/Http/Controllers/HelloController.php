@@ -8,7 +8,7 @@ class HelloController extends Controller
 {
     public function index()
     {
-        $data = ['msg'=>'これはBladeを利用したサンプルです。'];
+        $data = ['msg'=>'お名前を入力してください'];
         return view('hello.index', $data);
     }
 
