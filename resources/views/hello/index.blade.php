@@ -2,8 +2,9 @@
 
 @section('title', 'Index')
 
-@section('mububar')
+@section('menubar')
     @parent
+    インデックスページ
 @endsection
 
 @section('content')
